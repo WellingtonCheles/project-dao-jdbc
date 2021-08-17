@@ -1,6 +1,7 @@
 package model.entities;
 
-import java.io.Serializable;
+import java.io.Serializable; // Objetos poder ser transformados em sequências de bits.
+
 import java.util.Objects;
 
 public class Department implements Serializable {
@@ -66,9 +67,4 @@ public class Department implements Serializable {
 		return "Department [id=" + id + ", name=" + name + "]";
 	}
 	
-	
-	
-	
-	
-
 }
